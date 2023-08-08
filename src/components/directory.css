@@ -1,0 +1,20 @@
+.DirectForm{
+    text-align: left;
+    margin-left: 20%;
+}
+
+
+#NameInput{
+    margin-left: 76.5px;
+}
+
+#DirectButton{
+    width: 400px; /*400px*/
+    height: 50px;
+    margin-left:50px;
+    background-color: #15bc31;
+}
+
+#YearInput{
+    margin-left: 117.5px;
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.aboutText{
+    font-family: Poppins;
+    color: aliceblue;
+    margin-top: 15%;
+    margin-bottom: 17%;
+}
+
+#sign{
+    text-align: right;
+}

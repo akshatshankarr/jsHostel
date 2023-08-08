@@ -1,0 +1,38 @@
+.subButton{
+    background-color: #15bc31;
+}
+
+.justify-content-end{
+    width: 89.70%;
+}
+
+.searchForm{
+    margin-left: 10%; /*or width=90%*/
+}
+
+label{
+    margin-right: 0px;
+}
+
+span.inputPrompt{
+    margin-right: 0px;
+}
+
+input{
+    width: 550px;
+    padding: 1.7%;
+    background-color: #F6F6F6;
+    color:#14181c;
+    margin-left: 12px;
+    margin-right: 0px;  /*might not be needed check*/
+    border-radius: 5px;
+}
+
+.newForm{
+    width: 90%;
+}
+
+#newFormSubmit{
+    margin-left: 5px;
+    margin-right:0px;
+}

@@ -1,0 +1,29 @@
+import React, { lazy, Suspense } from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+const Layout = lazy(() => import("./components/layout"));
+const Profile = lazy(() => import("./components/profile"));
+const CabRec = lazy(() => import("./components/cabrec"));
+const Directory = lazy(() => import("./components/directory"));
+const About = lazy(() => import("./components/about"));
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Profile />} />
+            <Route path="/cabshare" element={<CabRec />} />
+            <Route path="/directory" element={<Directory />} />
+            <Route path="/about" element={<About />} />
+          </Route>
+        </Routes>
+      </Suspense>
+    </BrowserRouter>
+  );
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));

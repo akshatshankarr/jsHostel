@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+form{
+    text-align: right;
+    margin-top: 11%;
+    width: 80%;
+}
+
+form input {
+    font-family: Poppins;
+    width: 550px; /*550px*/
+    padding: 12px;
+    background-color: #F6F6F6;
+    color:#14181c;
+    margin-left: 12px;
+    border-radius: 5px;
+}
+
+form input:focus {
+    background-color:#14181c;
+    color: #F6F6F6;
+}
+
+label{
+    margin-bottom: 0.65%;
+    margin-top: 0.65%;
+    font-family: Poppins;
+    font-size: medium;
+    color: #EEEEEE;
+    font-weight:525;
+}
+
+.subButton{
+        background-color: #15bc31;
+}
