@@ -24,4 +24,4 @@ yarn-error.log*
 
 #temp files
 /src/separatecompile.txt
-/src/lazyload.txt
+src\lazyload.txt
